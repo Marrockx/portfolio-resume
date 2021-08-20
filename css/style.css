@@ -212,6 +212,7 @@ main {
 	font-size: 0.8rem;
 	line-height: 1.6rem;
 	color: #cc4a0e;
+	margin-bottom: 0.8rem;
 }
 
 main #resume {
@@ -677,6 +678,11 @@ main #resume div > h2 {
 
 	.text-wrap > h1 {
 		font-size: 2rem;
+	}
+
+	.resume-info-border-wrap {
+		width: 75%;
+		margin: auto;
 	}
 
 	.form-input input,
