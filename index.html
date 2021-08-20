@@ -9,6 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mariam Adekola</title>
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://use.fontawesome.com/f35ae4ef1c.js"></script>
+
 </head>
 
 <body>
@@ -26,24 +29,26 @@
                         <div class="site-logo"><a href="#">Mariam Adekola</a></div>
                     </div>
 
+                    <!-- Menu for larger devices -->
                     <div class="nav-menu">
                         <ul>
                             <a href="#showcase" class="nav-link">About</a>
                             <a href="#resume" class="nav-link">Resume</a>
-                            <a href="#" class="nav-link">Projects</a>
-                            <a href="#" class="nav-link">Hire Me</a>
+                            <a href="#projects" class="nav-link">Projects</a>
+                            <a href="#contact" class="nav-link">Hire Me</a>
                         </ul>
                     </div>
+
+                    <!-- overlay menu for mobile devices -->
                     <div id="myNav" class="overlay" onclick="closeNav()">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <!-- Overlay content -->
                         <div class="overlay-content">
                             <ul>
                                 <a href="#showcase" class="nav-link">About</a>
-                                <a href="#resume" class="nav-link">Resume</a>
-                                <a href="#" class="nav-link">Projects</a>
-                                <a href="#" class="nav-link">Hire Me</a>
-                            </ul>
+                            <a href="#resume" class="nav-link">Resume</a>
+                            <a href="#projects" class="nav-link">Projects</a>
+                            <a href="#contact" class="nav-link">Hire Me</a>                            </ul>
                         </div>
                     </div>
                 </nav>
@@ -55,9 +60,9 @@
                             <div class="show-case-wrap">
                                 <div class="owner-picture blob">
 
-                                      
-  
-  <!-- <svg
+
+
+                                    <!-- <svg
     width="240"
     height="240"
     viewBox="0 0 1000 1000"
@@ -118,7 +123,7 @@
   
   </svg>           -->
 
-                                    <!-- <img src="images/DSC_9562.JPG" alt=""> -->
+                                
                                 </div>
                                 <div class="text-wrap">
                                     <h1>I'm Mariam Adekola</h1>
@@ -142,10 +147,16 @@
                             <h2>SKILLS</h2>
 
                             <!-- group of images -->
-                            <i>a</i>
-                            <i>a</i>
-                            <i>a</i>
-                            <i>a</i>
+                            <div class="tools-icon">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+                                    alt="">
+                                <img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png"
+                                    alt="">
+                                <img id="js-icon"
+                                    src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png" alt="">
+                                <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                                    alt="">
+                            </div>
                         </div>
                         <div id="experience">
                             <!-- list -->
@@ -155,81 +166,205 @@
                                 <section class="experience-field">
                                     <div class="experience-title-head">
                                         <div class="experience-title">
-                                            <h3>Intern</h3>
+                                            <h3>Frontend Intern</h3>
                                         </div>
-                                        <div><span>2011 - 2020</span> </div>
+                                        <div><span>Mar. 2021 - Present</span> </div>
                                     </div>
-                                    <div class="experience-text">Lorem ipsum t nisi provident assumenda?</div>          </section>
+                                    <div class="experience-text">
+                                        <div>Zuri Team</div>
+                                        <li>Learning how to build more responsive sites and implementation of dynamic programming using JavaScript.</li></div>
+                                </section>
                             </div>
                             <div class="resume-info-border-wrap">
-                                <section class="experience-field">
+                                 <section class="experience-field">
                                     <div class="experience-title-head">
                                         <div class="experience-title">
-                                            <h3>Intern</h3>
+                                            <h3>Mobile Dev Intern</h3>
                                         </div>
-                                        <div><span>2011 - 2020</span> </div>
+                                        <div><span>June 2020 - July 2020</span> </div>
                                     </div>
-                                    <div class="experience-text">Lorem ipsum t nisi provident assumenda?</div>          </section>
+                                    <div class="experience-text">
+                                        <div>Zuri Team</div>
+                                        <li>Implemented CRUD functionality with Hive for Flutter.</li>
+<li>Developed app solutions with Flutter Framework for Dart.</li>
+<li>Adopted the use of Provider architecture for apps with MVVM.</li>
+<div class="project-outline">
+    MedBuzz, Team-Based Mobile App
+    <li>Designed mobile-responsive pages for the app with Flutter using Android Studio.</li>
+    <li>Provided device’s local notifications solution with reminder functionalities for fitness, drugs and doctor’s appointments.</li>
+    <li>Used CRUD functionality synchronized with Hive Database to store user data.</li>
+</div></div>
+                                </section>
                             </div>
 
-                            
+
                         </div>
                         <div id="education">
                             <!-- list -->
                             <h2>EDUCATION</h2>
-     
+
                             <div class="resume-info-border-wrap">
                                 <section class="experience-field">
                                     <div class="experience-title-head">
                                         <div class="experience-title">
-                                            <h3>Intern</h3>
+                                            <h3>Computer Engineering Major</h3>
                                         </div>
-                                        <div><span>2011 - 2020</span> </div>
+                                        <div><span>2017 - Present</span> </div>
                                     </div>
-                                    <div class="experience-text">Lorem ipsum t nisi provident assumenda?</div>          </section>
+                                    <div class="experience-text"><div>Obafemi Awolowo University</div>
+                                        <li>SWEP 200 Project: CAMPUS NAV Mobile App – Collaborated with team mates and designed user interface for better user
+experience and integrated Google Maps API for location referencing</li></div>
+                                </section>
                             </div>
+                            
+                            </div>
+                        
+
+                        <div id="VOLUNTEER">
+                            <!-- list -->
+                            <h2>VOLUNTEER EXPERIENCE</h2>
                             <div class="resume-info-border-wrap">
                                 <section class="experience-field">
                                     <div class="experience-title-head">
                                         <div class="experience-title">
-                                            <h3>Intern</h3>
+                                            <h3>Co-organiser</h3>
                                         </div>
-                                        <div><span>2011 - 2020</span> </div>
+                                        <div><span>Nov. 2019</span> </div>
                                     </div>
-                                    <div class="experience-text">Lorem ipsum t nisi provident assumenda?</div>          </section>
+                                    <div class="experience-text"><div>DevOpsNG Conference</div>
+                                        <li>Co-organised and assisted with the planning, organization and feeding of DevOpsNG Conference 2019 in OAU, livestreamed
+the conference for OAU attendees with the event attracting an audience of over 100 people.</li></div>
+                                </section>
                             </div>
+
                         </div>
 
-                    </div>
+                        <div id="projects">
+                            <!-- list -->
+                            <h2>PROJECTS</h2>
+
+                            <div class="project-card-wrap">
+                                <div class="project-card">
+                                    <img src="images/creer.png" alt="">
+                                    <div class="project-info"> <span>
+                                            Creer
+                                        </span>
+                                        <div class="action-btns">
+                                            <a href="https://github.com/zuri-training/creer-fe-pjt-105" target="blank"><button class="action-btn">View on GitHub</button></a>
+                                            <a href="https://zuri-training.github.io/creer-fe-pjt-105/" target="_blank"><button class="action-btn">Live Site</button></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <img src="images/fylo-landing.png" alt="">
+                                    <div class="project-info"> <span>
+                                            Fylo dark theme
+                                        </span>
+                                        <div class="action-btns">
+                                            <a href="https://github.com/Marrockx/fylo-dark-theme-landing-page" target="_blank"><button class="action-btn">View on GitHub</button></a>
+                                            <a href="https://devmariam-fylo-landing-page.netlify.app/" target="_blank"><button class="action-btn">Live Site</button></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <img src="images/zuri-form-task.png" alt="">
+                                    <div class="project-info"> <span>
+                                            Zuri Payment Form
+                                        </span>
+                                        <div class="action-btns">
+                                            <a href="https://github.com/Marrockx/zuri-payment-form-task" target="_blank"><button class="action-btn">View on GitHub</button></a>
+                                            <a href="https://marrockx.github.io/zuri-payment-form-task/" target="_blank"><button class="action-btn">Live Site</button></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <img src="images/google-clone.png" alt="">
+                                    <div class="project-info"> <span>
+                                            Google HomePage 
+                                        </span>
+                                        <div class="action-btns">
+                                            <a href="https://github.com/Marrockx/google-homepage-clone-zuri-task" target="_blank"><button class="action-btn">View on GitHub</button></a>
+                                            <a href="https://marrockx.github.io/google-homepage-clone-zuri-task/" target="_blank"><button class="action-btn">Live Site</button></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div id="contact">
+
+                            <form action="">
+                                <div class="form-header">
+                                    <h2>Hire Me</h2>
+                                    <p> Chat me up to know more about my frontend skills</p>
+                                </div>
+
+                                <div class="form-input">
+                                    <input type="text" name="name" id="" placeholder="Your name" required>
+                                    <input type="email" name="name" id="" placeholder="Your email address">
+                                    <input type="text" name="title" id="" placeholder="Message title">
+                                    <textarea name="message" id="" cols="30" rows="10"
+                                        placeholder="Type text here"></textarea>
+
+                                    <button class="submit-btn" formaction="mailto:mariam.adekola10@gmail.com">
+                                        Submit
+                                    </button>
+                                </div>
+
+                            </form>
+                        </div>
+                        </div>
+
                 </main>
 
             </div>
         </div>
-        <footer>
-            <div class="footer-content">
-                <div class="zuri">Zuri Logo</div>
-                <div class="author">
-                    <div class="author-name">&copy; Mariam Adekola 2021</div>
-                    <div class="author-social">
-                        <a href=""><i>a</i></a>
-                        <a href=""><i>a</i></a>
-                        <a href=""><i>a</i></a>
+
+        <a href="#nav-menu-wrap" id="scroll-to-top"><button ">&UpArrow;</button></a>
+
+
+
+            <footer>
+                <div class="footer-content">
+                    <div class="zuri">
+                        <div><a href="https://internship.zuri.team/" target="_blank"><img src="images/logos/zuri-logo.svg" alt=""></a>
+                        </div>
+                        <div>
+                            <a href="https://ingressive.org/" target="_blank">
+                                <img id="i4g" src="images/logos/I4G-Logo-Color-Cropped.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <div class="author-name">&copy; Mariam Adekola 2021</div>
+                        <div class="author-social">
+                            <a href="https://github.com/Marrockx/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mariam-a-335343122/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/Marrockx/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <nav footer-nav>
+
+                            <ul>
+                                <a href="#showcase" class="footer-nav-link">About</a>
+                                <a href="#projects" class="footer-nav-link">Projects</a>
+                                <a href="#contact" class="footer-nav-link">Hire Me</a>
+                            </ul>
+
+                        </nav>
                     </div>
                 </div>
-                <div class="footer-links">
-                    <nav footer-nav>
-                    
-                        <ul>
-                            <a href="#showcase" class="footer-nav-link">About</a>
-                            <a href="#projects" class="footer-nav-link">Projects</a>
-                            <a href="#contact" class="footer-nav-link">Hire Me</a>
-                        </ul>
-                    
-                    </nav>
-                </div>
-            </div>
-        </footer><a href="#nav-menu-wrap">&UpArrow;</button>
-
+            </footer>
 
     </div>
 
