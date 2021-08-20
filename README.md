@@ -1,10 +1,10 @@
 <!-- @format -->
 
-[first-task][1]
+#[first-task][1]
 
 - [portfolio-resume](https://portfolio-resume-devmariam.netlify.app/)
 
-[second-task][2]
+#[second-task][2]
 
 ### Program Written with JavaScript
 
