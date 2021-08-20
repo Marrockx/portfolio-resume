@@ -2,7 +2,7 @@
 
 # Resume Page
 
-- [portfolio-resume](https://portfolio-resume-devmariam.netlify.app/)
+- **[portfolio-resume](https://portfolio-resume-devmariam.netlify.app/)**
 
 # Program to Print Name
 
