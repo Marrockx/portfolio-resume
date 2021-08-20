@@ -1,10 +1,10 @@
 <!-- @format -->
 
-# [first-task][1]
+# Resume Page
 
 - [portfolio-resume](https://portfolio-resume-devmariam.netlify.app/)
 
-# [second-task][2]
+# Program to Print Name
 
 ### Program Written with JavaScript
 
