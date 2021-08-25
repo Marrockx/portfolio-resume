@@ -561,7 +561,7 @@ main #resume div > h2 {
 
 	#skills .tools-icon {
 		flex-direction: row;
-		justify-content: flex-start;
+		justify-content: center;
 	}
 
 	section.experience-field {
